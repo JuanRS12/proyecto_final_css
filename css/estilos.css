@@ -1,6 +1,23 @@
+@media (min-width:721px)/*desktop*/{
+.contenido{
+    text-align: center;
+  }
+}
+
+@@media (min-width:420px) and (max-width:720px)/*movil*/ {
+
+}
+
+
 body{
   margin: 10px;
+  background-color: #02010a;
 }
+
+img{
+  box-shadow: 2px 2px #02010a;
+}
+
 header{
   background-color: #5b7989;
   color: white;
@@ -10,15 +27,15 @@ header{
   padding-top: 0.5%;
 }
 header h1{
-  font-size: 1.5em;
-  font-family: "Indie Flower";
+  font-size: 2em;
+  font-family: "Dancing Script";
   font-style: italic;
   text-shadow: 2px 2px #02010a;
   text-decoration: none;
 }
 
 nav {
-  font-family: "Indie Flower";
+  font-family: "Dancing Script";
   text-align: right;
   padding-right: 1%;
 }
@@ -52,7 +69,7 @@ figcaption {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  font-family: "Indie Flower";
+  font-family: "Dancing Script";
   color: white;
   text-align: center;
 }
