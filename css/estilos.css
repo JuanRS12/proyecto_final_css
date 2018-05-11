@@ -77,3 +77,7 @@ figcaption {
 .contenedor1 img{
   border: solid 1px black;
 }
+
+.imagen2:hover{
+  transform: rotate(10deg);
+}
