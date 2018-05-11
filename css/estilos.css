@@ -93,3 +93,29 @@ figcaption {
 .imagen3:hover img{
   transform: translate(20px,-5px);
 }
+
+footer{
+  background-color: #C6d5c5;
+  padding: 0.5%;
+  border-radius: 0px 0px 10px 10px;
+  font-family: "Dancing Script";
+  color: #262626;
+}
+
+footer img{
+  box-shadow: none;
+  border-radius: 5px;
+}
+
+.contenedor2{
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.redes_sociales{
+  display: flex;
+  align-self: center;
+}
