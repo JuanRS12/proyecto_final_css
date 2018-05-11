@@ -42,24 +42,21 @@ figcaption {
   padding: 0.5%;
 }
 
+#imagen1 img{
+  border: solid 1px black;
+}
+
 .contenedor1{
   padding: 0.5%;
   background-color: #d5c75f;
   display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-family: "Indie Flower";
+  color: white;
   text-align: center;
 }
 
-.imagen2 img{
+.contenedor1 img{
   border: solid 1px black;
-  margin: 5px;
-  display: flex;
-  flex-direction: row-reverse;
-}
-
-.imagen3 img{
-  border: solid 1px black;
-  margin: 5px;
-  display: flex;
-  flex-direction: row-reverse;
-  flex-wrap: wrap;
 }
